@@ -1,0 +1,74 @@
+.blue{
+    padding: 10px;
+    background-color: lightskyblue;
+    animation-name: exampleleft;
+    animation-duration: 0.2s;
+    position: relative;
+    top:5px;
+
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white,#eee, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white,#eee, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white,#eee, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white,#eee, white); /* Standard syntax */
+    
+}
+
+.yellow{
+    
+    padding: 10px;
+    background-color: #F9F9CF;
+    position: relative;
+    animation-name: exampleleft;
+    animation-duration: 0.2s;
+    top:5px;
+
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white,#eee, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white,#eee, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white,#eee, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white,#eee, white); /* Standard syntax */
+}
+
+@keyframes example {
+    100%   {top:0px;opacity: 0.1}
+    0%  {top:40px;}
+    
+}
+
+@keyframes exampleleft {
+    100%   {left:0px;opacity: 0.1}
+    0%  {left:40px;}
+    
+}
+
+.boxing{
+    height: 30px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+.arrow{
+    font-size:1.5em;
+    float: left;
+    padding:4px;
+
+}
+
+.arrowright{
+    font-size:1.5em;
+    float: right;
+    padding:4px;
+
+}
+
+.modules {
+    height: 30px; /* 40px - more place for scrollbar, is hidden under parent box */
+    padding: 5px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
